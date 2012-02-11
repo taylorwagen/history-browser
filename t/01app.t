@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use Test::More;
 
-use Catalyst::Test 'history_browser';
+use Catalyst::Test 'HistoryBrowser';
 
 ok( request('/')->is_success, 'Request should succeed' );
 

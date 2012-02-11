@@ -4,17 +4,17 @@ use strict;
 use warnings;
 
 use Catalyst::ScriptRunner;
-Catalyst::ScriptRunner->run('history_browser', 'Create');
+Catalyst::ScriptRunner->run('HistoryBrowser', 'Create');
 
 1;
 
 =head1 NAME
 
-history_browser_create.pl - Create a new Catalyst Component
+HistoryBrowser_create.pl - Create a new Catalyst Component
 
 =head1 SYNOPSIS
 
-history_browser_create.pl [options] model|view|controller name [helper] [options]
+HistoryBrowser_create.pl [options] model|view|controller name [helper] [options]
 
  Options:
    --force        don't create a .new file where a file to be created exists
@@ -22,14 +22,14 @@ history_browser_create.pl [options] model|view|controller name [helper] [options
    --help         display this help and exits
 
  Examples:
-   history_browser_create.pl controller My::Controller
-   history_browser_create.pl -mechanize controller My::Controller
-   history_browser_create.pl view My::View
-   history_browser_create.pl view HTML TT
-   history_browser_create.pl model My::Model
-   history_browser_create.pl model SomeDB DBIC::Schema MyApp::Schema create=dynamic\
+   HistoryBrowser_create.pl controller My::Controller
+   HistoryBrowser_create.pl -mechanize controller My::Controller
+   HistoryBrowser_create.pl view My::View
+   HistoryBrowser_create.pl view HTML TT
+   HistoryBrowser_create.pl model My::Model
+   HistoryBrowser_create.pl model SomeDB DBIC::Schema MyApp::Schema create=dynamic\
    dbi:SQLite:/tmp/my.db
-   history_browser_create.pl model AnotherDB DBIC::Schema MyApp::Schema create=static\
+   HistoryBrowser_create.pl model AnotherDB DBIC::Schema MyApp::Schema create=static\
    [Loader opts like db_schema, naming] dbi:Pg:dbname=foo root 4321
    [connect_info opts like quote_char, name_sep]
 

@@ -5,17 +5,17 @@ BEGIN {
 }
 
 use Catalyst::ScriptRunner;
-Catalyst::ScriptRunner->run('history_browser', 'Server');
+Catalyst::ScriptRunner->run('HistoryBrowser', 'Server');
 
 1;
 
 =head1 NAME
 
-history_browser_server.pl - Catalyst Test Server
+HistoryBrowser_server.pl - Catalyst Test Server
 
 =head1 SYNOPSIS
 
-history_browser_server.pl [options]
+HistoryBrowser_server.pl [options]
 
    -d --debug           force debug mode
    -f --fork            handle each request in a new process

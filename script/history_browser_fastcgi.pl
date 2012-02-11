@@ -1,17 +1,17 @@
 #!/usr/bin/env perl
 
 use Catalyst::ScriptRunner;
-Catalyst::ScriptRunner->run('history_browser', 'FastCGI');
+Catalyst::ScriptRunner->run('HistoryBrowser', 'FastCGI');
 
 1;
 
 =head1 NAME
 
-history_browser_fastcgi.pl - Catalyst FastCGI
+HistoryBrowser_fastcgi.pl - Catalyst FastCGI
 
 =head1 SYNOPSIS
 
-history_browser_fastcgi.pl [options]
+HistoryBrowser_fastcgi.pl [options]
 
  Options:
    -? -help      display this help and exits

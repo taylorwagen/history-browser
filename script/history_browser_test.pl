@@ -1,24 +1,24 @@
 #!/usr/bin/env perl
 
 use Catalyst::ScriptRunner;
-Catalyst::ScriptRunner->run('history_browser', 'Test');
+Catalyst::ScriptRunner->run('HistoryBrowser', 'Test');
 
 1;
 
 =head1 NAME
 
-history_browser_test.pl - Catalyst Test
+HistoryBrowser_test.pl - Catalyst Test
 
 =head1 SYNOPSIS
 
-history_browser_test.pl [options] uri
+HistoryBrowser_test.pl [options] uri
 
  Options:
    --help    display this help and exits
 
  Examples:
-   history_browser_test.pl http://localhost/some_action
-   history_browser_test.pl /some_action
+   HistoryBrowser_test.pl http://localhost/some_action
+   HistoryBrowser_test.pl /some_action
 
  See also:
    perldoc Catalyst::Manual

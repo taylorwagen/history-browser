@@ -1,13 +1,13 @@
 #!/usr/bin/env perl
 
 use Catalyst::ScriptRunner;
-Catalyst::ScriptRunner->run('history_browser', 'CGI');
+Catalyst::ScriptRunner->run('HistoryBrowser', 'CGI');
 
 1;
 
 =head1 NAME
 
-history_browser_cgi.pl - Catalyst CGI
+HistoryBrowser_cgi.pl - Catalyst CGI
 
 =head1 SYNOPSIS
 
